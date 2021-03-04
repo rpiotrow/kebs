@@ -407,3 +407,14 @@ lazy val kebs = project
     publishArtifact := false,
     crossScalaVersions := Nil
   )
+
+lazy val mdoc = project
+  .enablePlugins(MdocPlugin)
+  .settings(
+    mdocVariables := Map(
+      "VERSION" -> version.value
+    ),
+    mdocIn := (Compile / sourceDirectory).value / "mdoc",
+    mdocOut := file("website")
+  )
+  .dependsOn(kebs)

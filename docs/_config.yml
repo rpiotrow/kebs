@@ -1,0 +1,21 @@
+name: Kebs
+baseurl: '/kebs-mdoc-jekyll'
+url: 'https://rpiotrow.github.io'
+description: Eliminate common sources of Scala boilerplate
+highlighter: rouge
+docs: true
+collections:
+  mdoc:
+    output: true
+sass:
+  load_paths:
+  - _sass
+  - _sass_custom
+  style: compressed
+  sourcemap: never
+version: 1.9.1
+search_enabled: false
+include:
+- css/light-style.scss
+org: Iterators
+markdown: kramdown

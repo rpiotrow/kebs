@@ -1,0 +1,32 @@
+options:
+  - title: Integrations
+    url: integrations
+    menu_type: integrations
+
+  - title: Akka HTTP
+    url: integrations/akka-http
+    menu_type: integrations
+
+  - title: Circe
+    url: integrations/circe
+    menu_type: integrations
+
+  - title: JsonSchema
+    url: integrations/jsonschema
+    menu_type: integrations
+
+  - title: Play JSON
+    url: integrations/play-json
+    menu_type: integrations
+
+  - title: ScalaCheck
+    url: integrations/scalacheck
+    menu_type: integrations
+
+  - title: Slick
+    url: integrations/slick
+    menu_type: integrations
+
+  - title: Spray JSON
+    url: integrations/spray-json
+    menu_type: integrations
